@@ -1,0 +1,91 @@
+body {
+    min-width: 900px;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.slider-line {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index: -1;
+} 
+.line {
+    background: #efefef;
+    height: 100vh;
+    width: 1px;
+}
+.slider-titleup {
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.slider-plus {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: 240px;
+    bottom: 60px;
+}
+.slider-title {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 66px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 40px;
+}
+.slider-triad {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    right: 450px;
+    bottom: 150px;
+    z-index: -1;
+}
+.slider-slider{
+    position: relative;
+    left: 30px;;
+    width: 96%;
+    margin: 0 auto;
+}
+.slider {
+    width: 280px;
+}
+
+.slider:hover {
+    cursor: pointer;    
+    background-blend-mode: multiply;
+    background-color: green;
+    filter: opacity(50%);
+    z-index: 2;
+}
+
+.slider-left {
+    position: relative;
+    top: 100px;
+    right: 10px;
+    float: left;
+    z-index: 1;
+    cursor: pointer;
+}   
+.slider-right {
+    position: relative;
+    bottom: 160px;
+    right: 40px;
+    float: right;
+    z-index: 1;
+    cursor: pointer;
+}
